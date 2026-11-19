@@ -1,0 +1,21 @@
+{
+  "title": "Phylogeny shapes BGC content and prophage dynamics in Virgibacillus: analysis code",
+  "description": "<p>Analysis code for a comparative genomic study of the 138 publicly available isolate genomes deposited under the name <i>Virgibacillus</i>: GTDB reclassification, clone-group dereplication, BGC prediction and gene cluster families, tests of phylogenetic structure in cluster content, ancestral state reconstruction, the pangenome of GTDB <i>Virgibacillus</i>, and prophage detection and prophage-host divergence. Scripts are grouped by pipeline step and reproduce every table and figure in the article.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "de Souza Vieira, C.", "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"},
+    {"name": "Lemos, L.", "affiliation": "Ilum School of Science, CNPEM, Campinas, Brazil"},
+    {"name": "Kumazawa Morais, D.", "affiliation": "UiT - The Arctic University of Norway, Tromso, Norway"},
+    {"name": "Rosado, A.", "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"},
+    {"name": "Pylro, V.", "affiliation": "Universidade Federal de Lavras (UFLA), Brazil"}
+  ],
+  "keywords": [
+    "comparative genomics", "biosynthetic gene clusters", "prophages",
+    "pangenome", "Virgibacillus", "halophilic bacteria", "GTDB", "antiSMASH", "BiG-SCAPE"
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "ARTICLE.DOI", "scheme": "doi"}
+  ]
+}

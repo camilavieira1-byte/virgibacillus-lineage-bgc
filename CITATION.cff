@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the article below."
+title: "Phylogeny shapes BGC content and prophage dynamics in Virgibacillus: analysis code"
+abstract: >-
+  Analysis code for a comparative genomic study of the 138 publicly available isolate genomes
+  deposited under the name Virgibacillus, covering GTDB reclassification, clone-group
+  dereplication, BGC prediction and gene cluster families, tests of phylogenetic structure in
+  cluster content, ancestral state reconstruction, the pangenome of GTDB Virgibacillus, and
+  prophage detection and prophage-host divergence.
+type: software
+license: MIT
+# TODO before release: replace the initials below with full given names, add ORCIDs,
+# and fill in version, date-released and the Zenodo DOI.
+authors:
+  - family-names: "de Souza Vieira"
+    given-names: "C."
+    affiliation: "King Abdullah University of Science and Technology (KAUST), Saudi Arabia; Universidade Federal de Lavras (UFLA), Brazil"
+  - family-names: "Lemos"
+    given-names: "L."
+    affiliation: "Ilum School of Science, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil"
+  - family-names: "Kumazawa Morais"
+    given-names: "D."
+    affiliation: "Norwegian College of Fishery Science, UiT - The Arctic University of Norway, Tromso, Norway"
+  - family-names: "Rosado"
+    given-names: "A."
+    affiliation: "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"
+  - family-names: "Pylro"
+    given-names: "V."
+    affiliation: "Universidade Federal de Lavras (UFLA), Brazil"
+version: "1.0.0"
+date-released: "YYYY-MM-DD"
+doi: "ZENODO.DOI"
+keywords:
+  - comparative genomics
+  - biosynthetic gene clusters
+  - prophages
+  - pangenome
+  - Virgibacillus
+  - halophilic bacteria
+preferred-citation:
+  type: article
+  title: "Phylogeny shapes biosynthetic gene cluster content and prophage dynamics in the genus Virgibacillus"
+  authors:
+    - family-names: "de Souza Vieira"
+      given-names: "C."
+    - family-names: "Lemos"
+      given-names: "L."
+    - family-names: "Kumazawa Morais"
+      given-names: "D."
+    - family-names: "Rosado"
+      given-names: "A."
+    - family-names: "Pylro"
+      given-names: "V."
+  journal: "JOURNAL"
+  year: YYYY
+  doi: "ARTICLE.DOI"

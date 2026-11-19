@@ -1,0 +1,105 @@
+file	lines	first_comment
+00_metadata/bioproject_papers.py	61	
+00_metadata/build_curation_xlsx.py	113	---- template + BioSample (NCBI) ----
+00_metadata/curate_metadata.py	59	
+00_metadata/fetch_biosample.py	90	
+00_metadata/fetch_ebi_biosample.py	35	
+03_qc/make_exclusion_table.sh	13	
+03_qc/merge_qc.py	26	
+03_qc/run_qc.slurm	28	
+04_taxonomy/04_gtdbtk_run.slurm	25	Activate environment
+04_taxonomy/04b_gtdbtk_classify.slurm	25	
+04_taxonomy/04c_gtdbtk_noscratch.slurm	21	
+04_taxonomy/download_gtdb.slurm	26	Initialize conda
+04_taxonomy/download_gtdb_home.slurm	30	Initialize conda
+04_taxonomy/download_manual_home.slurm	34	1. Setup exact home paths
+04_taxonomy/split_vs_taxonomy.py	31	
+05_ani_clone_groups/05_ani.slurm	23	genomes that passed QC (CheckM2 names have no usr_ prefix)
+05_ani_clone_groups/ani_preview.py	30	
+06_antismash_novelty/06_antismash.slurm	37	
+06_antismash_novelty/06b_antismash_slow.slurm	37	
+06_antismash_novelty/fig2_classes.py	25	
+06_antismash_novelty/fig2_novelty.py	34	
+06_antismash_novelty/mibig_best.py	29	
+06_antismash_novelty/mibig_detail.py	26	
+06_antismash_novelty/mibig_gcf.py	25	
+06_antismash_novelty/mibig_gcf2.py	27	
+06_antismash_novelty/mibig_scan.py	30	
+06_antismash_novelty/mibig_strict.py	28	
+06_antismash_novelty/n50_checks.py	36	
+06_antismash_novelty/summarize_bgcs.py	40	
+07_bigscape/07_bigscape.slurm	33	
+07_bigscape/dl_pfam.slurm	34	
+07_bigscape/fam_report.sh	46	usage: fam_report.sh FAM_00030 [cutoff, default 0.5]
+08_tree/08_iqtree.slurm	22	
+08_tree/08_tree_msa.slurm	22	
+08_tree/check_tree.py	61	
+08_tree/scope_options.py	52	clone groups (skani, ANI >= 99.9, AF >= 50)
+09_gcf_lineage_stats/analysis_table.py	64	
+09_gcf_lineage_stats/build_matrix.py	63	
+09_gcf_lineage_stats/class_by_lineage.py	15	
+09_gcf_lineage_stats/derep_995.py	24	
+09_gcf_lineage_stats/mantel_B.py	35	
+09_gcf_lineage_stats/mantel_B_995.py	35	
+09_gcf_lineage_stats/pf_c03.py	94	
+09_gcf_lineage_stats/pf_c07.py	94	
+09_gcf_lineage_stats/pf_complete.py	94	
+09_gcf_lineage_stats/pf_n50.py	94	
+09_gcf_lineage_stats/phylo_first.py	94	
+09_gcf_lineage_stats/phylo_first_995.py	94	
+09_gcf_lineage_stats/scatter_test.py	63	
+09_gcf_lineage_stats/scatter_test_995.py	63	
+09_gcf_lineage_stats/scatter_test_B.py	63	
+09_gcf_lineage_stats/scatter_test_B_995.py	63	
+09_gcf_lineage_stats/why_genus.py	39	
+09_gcf_lineage_stats/why_genus_500.py	39	
+09_gcf_lineage_stats/why_genus_995.py	39	
+10_pangenome/10_pangenome.slurm	35	
+10_pangenome/compare_trees.py	43	
+10_pangenome/compare_trees2.py	44	
+10_pangenome/pangenome_singletons.py	52	
+10_pangenome/pangenome_singletons_995.py	52	
+10_pangenome/pangenome_stats.py	49	
+10_pangenome/pangenome_stats_995.py	49	
+11_genomad_prophages/11_genomad.slurm	40	
+11_genomad_prophages/aggregate_genomad.py	30	1. Aggregate Viruses
+11_genomad_prophages/bgc_core_coords.py	35	
+11_genomad_prophages/bgc_virus_distance.py	106	
+11_genomad_prophages/bgc_virus_distance_core.py	106	
+11_genomad_prophages/extract_near_bgc_gbk.py	48	
+11_genomad_prophages/family_test_core.py	38	
+11_genomad_prophages/intersect_bgc_mobility.py	64	1. BGC regions: contig + original coordinates + product, from the GBKs
+11_genomad_prophages/ipr_locus.slurm	15	
+11_genomad_prophages/merge_mobility_taxonomy.py	51	1. Load geNomad mobility summary
+11_genomad_prophages/mge_checks.py	31	
+11_genomad_prophages/mge_og.py	30	
+11_genomad_prophages/mge_table.py	64	
+11_genomad_prophages/mge_tests.py	86	
+11_genomad_prophages/mge_tests_100k.py	86	
+11_genomad_prophages/ripp_check.py	22	
+11_genomad_prophages/run_clinker.sh	14	one plot per family (families with >= 2 members)
+12_phage_analyses/12_phabox_votu.slurm	16	
+12_phage_analyses/codivergence.py	47	
+12_phage_analyses/codivergence2.py	63	
+12_phage_analyses/group_inspect.py	25	
+12_phage_analyses/phage_analysis.py	83	
+12_phage_analyses/phage_extract.py	22	
+12_phage_analyses/phage_from_clusters.py	44	
+12_phage_analyses/shared_cluster.py	16	
+13_figures/asr_bgc_classes.py	126	
+13_figures/asr_main.py	141	
+13_figures/asr_main_profile.py	146	
+13_figures/asr_main_profile2.py	149	
+13_figures/asr_supp.py	141	
+13_figures/bigscape_network.py	88	
+13_figures/class_prevalence_figure.py	43	
+13_figures/class_prevalence_sens.py	47	
+13_figures/codivergence_figure.py	54	
+13_figures/fig1_tree_export.py	41	
+13_figures/itol_export.py	59	
+13_figures/itol_legends.py	30	
+13_figures/itol_phage_groups.py	23	
+13_figures/lineage_figure.py	69	
+13_figures/n50_figure.py	26	
+13_figures/pangenome_figure.py	60	
+14_supplement/build_supp_tables.py	165	
