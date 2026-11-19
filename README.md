@@ -4,9 +4,8 @@ Analysis code for:
 
 > de Souza Vieira C, Lemos L, Kumazawa Morais D, Rosado A, Pylro V.
 > *Phylogeny shapes biosynthetic gene cluster content and prophage dynamics in the genus* Virgibacillus.
-> [JOURNAL], [YEAR]. doi:[ARTICLE DOI]
 
-Archived release: [![DOI](https://zenodo.org/badge/DOI/ZENODO.DOI.svg)](https://doi.org/ZENODO.DOI)
+
 
 ## What this does
 
