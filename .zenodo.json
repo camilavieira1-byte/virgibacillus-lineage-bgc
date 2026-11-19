@@ -5,17 +5,36 @@
   "license": "MIT",
   "access_right": "open",
   "creators": [
-    {"name": "de Souza Vieira, C.", "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"},
-    {"name": "Lemos, L.", "affiliation": "Ilum School of Science, CNPEM, Campinas, Brazil"},
-    {"name": "Kumazawa Morais, D.", "affiliation": "UiT - The Arctic University of Norway, Tromso, Norway"},
-    {"name": "Rosado, A.", "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"},
-    {"name": "Pylro, V.", "affiliation": "Universidade Federal de Lavras (UFLA), Brazil"}
+    {
+      "name": "de Souza Vieira, C.",
+      "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"
+    },
+    {
+      "name": "Lemos, L.",
+      "affiliation": "Ilum School of Science, CNPEM, Campinas, Brazil"
+    },
+    {
+      "name": "Kumazawa Morais, D.",
+      "affiliation": "UiT - The Arctic University of Norway, Tromso, Norway"
+    },
+    {
+      "name": "Rosado, A.",
+      "affiliation": "King Abdullah University of Science and Technology (KAUST), Saudi Arabia"
+    },
+    {
+      "name": "Pylro, V.",
+      "affiliation": "Universidade Federal de Lavras (UFLA), Brazil"
+    }
   ],
   "keywords": [
-    "comparative genomics", "biosynthetic gene clusters", "prophages",
-    "pangenome", "Virgibacillus", "halophilic bacteria", "GTDB", "antiSMASH", "BiG-SCAPE"
-  ],
-  "related_identifiers": [
-    {"relation": "isSupplementTo", "identifier": "ARTICLE.DOI", "scheme": "doi"}
+    "comparative genomics",
+    "biosynthetic gene clusters",
+    "prophages",
+    "pangenome",
+    "Virgibacillus",
+    "halophilic bacteria",
+    "GTDB",
+    "antiSMASH",
+    "BiG-SCAPE"
   ]
 }
