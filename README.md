@@ -4,8 +4,9 @@ Analysis code for:
 
 > de Souza Vieira C, Lemos L, Kumazawa Morais D, Rosado A, Pylro V.
 > *Phylogeny shapes biosynthetic gene cluster content and prophage dynamics in the genus* Virgibacillus.
+> [JOURNAL], [YEAR]. doi:[ARTICLE DOI]
 
-
+Archived release: [![DOI](https://zenodo.org/badge/DOI/ZENODO.DOI.svg)](https://doi.org/ZENODO.DOI)
 
 ## What this does
 
@@ -78,6 +79,23 @@ Genome sequences are public GenBank assemblies and are not redistributed here; t
 are in Supplementary Table S1. The derived tables behind every figure and statistic are in the
 supplementary tables deposited with the article, and are rebuilt by
 `code/14_supplement/build_supp_tables.py`.
+
+That script writes the full working table set, in the order the analyses were run. The workbook
+submitted with the article drops the sheets the manuscript does not cite and renumbers the rest
+in order of first mention, so the sheet names differ:
+
+| sheet written by the script | table in the article |
+|---|---|
+| `S1_genomes` | Table S1 |
+| `S2_BGC_regions` | Table S2 |
+| `S5_cluster_stability` | Table S3 |
+| `S7_lineage_robustness` | Table S4 |
+| `S6_GCF_tree_pattern` (+ `_995`, `_B`, `_B_995`) | Table S5 |
+| `S8a/b/c` pangenome | Table S7a/b/c |
+| `S3_GCFs_c0.5`, `S4_genome_x_GCF_c0.5`, `S9a/b` prophages | not submitted (uncited) |
+
+Table S6 of the article, the ancestral state reconstruction, is not produced by that script: it
+is `ancestral_summary_<tag>.tsv`, written by `code/13_figures/asr_all_classes.py`.
 
 ## License
 
